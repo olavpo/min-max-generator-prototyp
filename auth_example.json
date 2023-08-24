@@ -1,0 +1,7 @@
+{
+    "dhis": {
+      "baseurl": "https://demos.dhis2.org/hmis",
+      "username": "demo_en",
+      "password": "District1#"
+    }
+  }

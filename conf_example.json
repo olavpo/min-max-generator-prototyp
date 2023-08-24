@@ -1,0 +1,23 @@
+{
+    "orgunits": ["YvLOmtTQD6b", "W6sNfkJcXGC"],
+    "dataset": "O34y2Kyxx6P",
+    "years": 1,
+    "completenessThreshold": 0.8,
+    "groups": [
+        {
+            "limitMedian": 10,
+            "method": "PREV_MAX", 
+            "threshold": 1.25
+        },
+        {
+            "limitMedian": 50,
+            "method": "BOXCOX", 
+            "threshold": 3
+        },
+        {
+            "limitMedian": 99999,
+            "method": "BOXCOX",
+            "threshold": 4
+        }
+    ]
+}
